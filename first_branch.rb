@@ -1,4 +1,10 @@
 puts "First Branch"
-# sitll need to grab user input
-# still need to output more info
-# still need to get more user intput
+puts "What is your favorite color?"
+favorite_color = gets.strip.downcase
+if favorite_color == 'black'
+	puts "you depressed, bro?"
+else
+	puts "nice"
+end
+
+
